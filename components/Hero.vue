@@ -19,6 +19,7 @@
                     <img class="w-[112px] lg:w-[205px]" src="@/static/play-store.png" alt="Bouton disponible sur Google Play Store" />
                 </div>
             </div>
+
             <div class="w-[70vw] ml-auto lg:max-w-[900px]">
                 <img class="w-full block lg:hidden" src="@/static/hero-mobile.png" alt="Mockup téléphone qui montre l'application" />
                 <img class="w-full hidden lg:block" src="@/static/hero.png" alt="Mockup téléphone qui montre l'application" />
@@ -26,5 +27,3 @@
         </div>
     </section>
 </template>
-
-<style></style>

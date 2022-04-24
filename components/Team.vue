@@ -1,0 +1,17 @@
+<template>
+    <section class="mx-auto max-w-[287px] lg:max-w-[1165px] mb-[100px] lg:px-[80px]">
+        <h4 class="text-3xl font-primary font-bold lg:text-6xl mb-7 lg:mb-[90px] text-center">L'équipe</h4>
+        
+        <div class="flex flex-col lg:flex-row gap-20 lg:justify-center lg:gap-[235px]">
+            <div>
+                <img src="@/static/camille.png" alt="Portrait de Camille Coutens" />
+                <p class="max-w-[225px] mx-auto mt-6 lg:max-w-[355px] text-center lg:text-[28px]">Camille Coutens, développeuse  web et mobile</p>
+            </div>
+
+            <div>
+                <img src="@/static/maxime.png" alt="Portrait de Maxime Coutens" />
+                <p class="max-w-[200px] mx-auto mt-6 lg:max-w-[338px] text-center lg:text-[28px]">Maxime Coutens,  instructeur d’équitation</p>
+            </div>
+        </div>
+    </section>
+</template>
