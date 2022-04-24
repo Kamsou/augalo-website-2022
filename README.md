@@ -1,4 +1,4 @@
-# Nuxt 3 Tailwindcss Minimal Starter
+# Nuxt 3 Tailwindcss — Augalo website
 
 Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
 
