@@ -5,12 +5,12 @@
         <div class="flex flex-col lg:flex-row gap-20 lg:justify-center lg:gap-[235px]">
             <div>
                 <img src="@/static/camille.png" alt="Portrait de Camille Coutens" />
-                <p class="max-w-[225px] mx-auto mt-6 lg:max-w-[355px] text-center lg:text-[28px]">Camille Coutens, développeuse  web et mobile</p>
+                <p class="max-w-[210px] mx-auto mt-6 lg:max-w-[355px] text-center lg:text-[28px]">Camille Coutens, Développeuse  web et mobile</p>
             </div>
 
             <div>
                 <img src="@/static/maxime.png" alt="Portrait de Maxime Coutens" />
-                <p class="max-w-[200px] mx-auto mt-6 lg:max-w-[338px] text-center lg:text-[28px]">Maxime Coutens,  instructeur d’équitation</p>
+                <p class="max-w-[200px] mx-auto mt-6 lg:max-w-[338px] text-center lg:text-[28px]">Maxime Coutens,  Instructeur d’équitation</p>
             </div>
         </div>
     </section>
