@@ -1,29 +1,66 @@
+<script>
+import {  computed } from 'vue'
+export default {
+  setup() {
+    const redirectToPlayStore = () => {
+      window.location = 'https://play.google.com/store/apps/details?id=com.ionic.augalo.com&gl=FR'
+    }
+    const redirectToAppStore = () => {
+      window.location = 'https://apps.apple.com/fr/app/augalo/id1598737381'
+    }
+    return { redirectToPlayStore, redirectToAppStore }
+  }
+}
+</script>
+
 <template>
     <section class="relative ml-5 z-10 lg:ml-24">
         <div class="flex absolute top-0 justify-between w-full mt-[2.1vh]">
             <img class="w-[107px] lg:w-[214px]" src="@/static/logo-black.png" alt="Logo Augalo" />
-            <div class="flex items-center lg:mr-28">
-                <img class="mr-5" src="@/static/contact.svg" alt="Icone message envoyé" />
-                <span class="hidden lg:block text-white text-[28px]">contact@augalo.com</span>
-            </div>
+
+            
+            <a href="mailto:contact@augalo.com">
+                <div class="flex items-center lg:mr-28 z-40 cursor-pointer">
+                    <img class="mr-5" src="@/static/contact.svg" alt="Icone message envoyé" />
+                    <span class="hidden lg:block text-white text-[28px]">
+                        contact@augalo.com
+                    </span>
+                </div>
+            </a>
+      
+
+            <img class="hidden lg:block absolute w-[220px] transform -rotate-[22deg] -left-[250px]" src="@/static/ellipse.png" alt="Ellipse blanche" />
         </div>
 
         <div class="flex">
-            <div class="absolute top-1/2 -translate-y-2/4 lg:-translate-y-3/4">
-                <h1 class="text-xl leading-5 max-w-[190px] font-primary font-bold lg:text-[70px] lg:leading-[66px] lg:max-w-[660px]">Espace 
-                    <span class="text-primary">incontournable</span> pour les cavaliers
+            <div class="absolute top-1/2 -translate-y-2/4 lg:-translate-y-3/4 ">
+                <h1 class="text-[5.3vw] leading-[5.3vw] max-w-[50.6vw] font-primary font-bold lg:text-[45px] lg:leading-[46px] xl:leading-[66px] lg:max-w-[460px] xl:max-w-[660px] xl:text-[70px]">
+                    Espace 
+                    <span class="text-primary">
+                        incontournable
+                    </span>
+                    pour les cavaliers
                 </h1>
-                <p class="text-sm max-w-[180px] mt-3 lg:text-[28px] lg:max-w-[463px] lg:mt-6">Pour t'entrainer à la théorie des Galops</p>
-                <div class="flex flex-col gap-2 mt-6 lg:mt-[100px] lg:gap-7 lg:flex-row">
-                    <img class="w-[112px] lg:w-[205px]" src="@/static/apple-store.png" alt="Bouton disponible sur App Store" />
-                    <img class="w-[112px] lg:w-[205px]" src="@/static/play-store.png" alt="Bouton disponible sur Google Play Store" />
+
+                <p class="text-[3.73vw] max-w-[48vw] mt-3 leading-[4.26vw] lg:text-[25px] xl:text-[28px] lg:max-w-full lg:mt-6 text-secondary">
+                    Pour t'entrainer à la théorie des Galops
+                </p>
+
+                <div class="flex flex-col gap-[2.13vw] mt-6 lg:mt-[100px] lg:gap-7 lg:flex-row cursor-pointer">
+                    <img class="w-[29.86vw] lg:w-[205px]" src="@/static/apple-store.png" alt="Bouton disponible sur App Store" @click="redirectToAppStore" />
+                    <img class="w-[29.86vw] lg:w-[205px]" src="@/static/play-store.png" alt="Bouton disponible sur Google Play Store" @click="redirectToPlayStore" />
                 </div>
             </div>
 
+            <img class="hidden lg:block absolute -top-0 lg:top-[260px] xl:top-[260px] w-[220px] lg:left-[30vw] xl:left-[650px] -z-10" src="@/static/ellipse.png" alt="Ellipse blanche" />
+
             <div class="w-[70vw] ml-auto lg:max-w-[900px]">
                 <img class="w-full block lg:hidden" src="@/static/hero-mobile.png" alt="Mockup téléphone qui montre l'application" />
+                
                 <img class="w-full hidden lg:block" src="@/static/hero.png" alt="Mockup téléphone qui montre l'application" />
             </div>
+
+            <img class="absolute bottom-0 w-[62px] lg:w-[220px] -left-10 lg:left-[50px] transform -rotate-[73deg]" src="@/static/ellipse.png" alt="Ellipse blanche" />
         </div>
     </section>
 </template>
