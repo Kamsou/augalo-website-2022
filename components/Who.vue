@@ -21,13 +21,13 @@ export default {
 </script>
 
 <template>
-    <section class="mt-12 mx-5 mb-[120px] lg:mt-52 lg:flex lg:max-w-[1349px] lg:mx-auto lg:gap-8 lg:px-[80px]">
+    <section class="mt-28 mx-5 mb-[120px] lg:mt-52 lg:flex lg:max-w-[1349px] lg:mx-auto lg:gap-8 lg:px-[80px]">
         <div class="hidden lg:block lg:max-w-[50%]">
             <img class="lg:max-w-full" src="@/static/who.png" alt="Illustration d'un cheval qui galope" />
         </div>
 
         <div class="mx-auto max-w-[334px] lg:max-w-[50%]">
-            <h2 class="text-3xl font-primary font-bold lg:text-6xl lg:mb-8">
+            <h2 class="text-xl font-primary font-bold lg:text-6xl lg:mb-8">
                 Pour qui,
             </h2>
             <p class="text-base leading-[30px] lg:text-[25px] lg:leading-[44px]">

@@ -18,7 +18,6 @@ export default {
         <div class="flex absolute top-0 justify-between w-full mt-[2.1vh]">
             <img class="w-[107px] lg:w-[214px]" src="@/static/logo-black.png" alt="Logo Augalo" />
 
-            
             <a href="mailto:contact@augalo.com">
                 <div class="flex items-center lg:mr-28 z-40 cursor-pointer">
                     <img class="mr-5" src="@/static/contact.svg" alt="Icone message envoyé" />
@@ -33,8 +32,8 @@ export default {
         </div>
 
         <div class="flex">
-            <div class="absolute top-1/2 -translate-y-2/4 lg:-translate-y-3/4 ">
-                <h1 class="text-[5.3vw] leading-[5.3vw] max-w-[50.6vw] font-primary font-bold lg:text-[45px] lg:leading-[46px] xl:leading-[66px] lg:max-w-[460px] xl:max-w-[660px] xl:text-[70px]">
+            <div class="absolute top-1/2 -translate-y-[30%] lg:-translate-y-3/4">
+                <h1 class="text-[6vw] leading-[6vw] max-w-[58.6vw] font-primary font-bold lg:text-[45px] lg:leading-[46px] xl:leading-[66px] lg:max-w-[460px] xl:max-w-[660px] xl:text-[70px]">
                     Espace 
                     <span class="text-primary">
                         incontournable
@@ -42,19 +41,19 @@ export default {
                     pour les cavaliers
                 </h1>
 
-                <p class="text-[3.73vw] max-w-[48vw] mt-3 leading-[4.26vw] lg:text-[25px] xl:text-[28px] lg:max-w-full lg:mt-6 text-secondary">
+                <p class="text-[4vw] max-w-[48vw] mt-3 leading-[5vw] lg:text-[25px] xl:text-[28px] lg:max-w-full lg:mt-6 text-secondary">
                     Pour t'entrainer à la théorie des Galops
                 </p>
 
                 <div class="flex flex-col gap-[2.13vw] mt-6 lg:mt-[100px] lg:gap-7 lg:flex-row cursor-pointer">
-                    <img class="w-[29.86vw] lg:w-[205px]" src="@/static/apple-store.png" alt="Bouton disponible sur App Store" @click="redirectToAppStore" />
-                    <img class="w-[29.86vw] lg:w-[205px]" src="@/static/play-store.png" alt="Bouton disponible sur Google Play Store" @click="redirectToPlayStore" />
+                    <img class="w-[40vw] lg:w-[205px]" src="@/static/apple-store.png" alt="Bouton disponible sur App Store" @click="redirectToAppStore" />
+                    <img class="w-[40vw] lg:w-[205px]" src="@/static/play-store.png" alt="Bouton disponible sur Google Play Store" @click="redirectToPlayStore" />
                 </div>
             </div>
 
             <img class="hidden lg:block absolute -top-0 lg:top-[260px] xl:top-[260px] w-[220px] lg:left-[30vw] xl:left-[650px] -z-10" src="@/static/ellipse.png" alt="Ellipse blanche" />
 
-            <div class="w-[70vw] ml-auto lg:max-w-[900px]">
+            <div class="w-[60vw] ml-auto lg:max-w-[900px]">
                 <img class="w-full block lg:hidden" src="@/static/hero-mobile.png" alt="Mockup téléphone qui montre l'application" />
                 
                 <img class="w-full hidden lg:block" src="@/static/hero.png" alt="Mockup téléphone qui montre l'application" />

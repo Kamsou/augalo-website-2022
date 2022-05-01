@@ -1,6 +1,6 @@
 <template>
     <section class="mx-auto max-w-[287px] lg:max-w-[1165px] mb-[100px] lg:px-[80px]">
-        <h4 class="text-3xl font-primary font-bold lg:text-6xl mb-7 lg:mb-[90px] text-center">L'équipe</h4>
+        <h4 class="text-xl font-primary font-bold lg:text-6xl mb-7 lg:mb-[90px] text-center">L'équipe</h4>
         
         <div class="flex flex-col lg:flex-row gap-20 lg:justify-center lg:gap-[235px]">
             <div>
