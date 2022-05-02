@@ -51,15 +51,15 @@ export default {
                 </div>
             </div>
 
-            <img class="hidden lg:block absolute -top-0 lg:top-[260px] xl:top-[260px] w-[220px] lg:left-[30vw] xl:left-[650px] -z-10" src="@/static/ellipse.png" alt="Ellipse blanche" />
+            <img class="absolute right-[100px] lg:right-0 -top-0 lg:top-[260px] xl:top-[260px] w-[120px] lg:w-[220px] lg:left-[30vw] xl:left-[650px] -z-10" src="@/static/ellipse.png" alt="Ellipse blanche" />
 
-            <div class="w-[60vw] ml-auto lg:max-w-[900px]">
+            <div class="w-[55vw] ml-auto lg:max-w-[900px]">
                 <img class="w-full block lg:hidden" src="@/static/hero-mobile.png" alt="Mockup téléphone qui montre l'application" />
                 
                 <img class="w-full hidden lg:block" src="@/static/hero.png" alt="Mockup téléphone qui montre l'application" />
             </div>
 
-            <img class="absolute bottom-0 w-[62px] lg:w-[220px] -left-10 lg:left-[50px] transform -rotate-[73deg]" src="@/static/ellipse.png" alt="Ellipse blanche" />
+            <img class="absolute -bottom-16 lg:bottom-0 w-[162px] lg:w-[220px] left-[100px] lg:left-[50px] transform -rotate-[73deg]" src="@/static/ellipse.png" alt="Ellipse blanche" />
         </div>
     </section>
 </template>

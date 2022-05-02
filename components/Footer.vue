@@ -48,7 +48,7 @@
             </div>
         </div>
         <div class="border-t-2 py-[35px] flex justify-center">
-            <span class="text-[13px] lg:text-[28px]">Augalo | Tous droits réservés 2022</span>
+            <span class="text-[13px]">Augalo | Tous droits réservés 2022</span>
         </div>
     </section>
 </template>
