@@ -33,7 +33,7 @@ export default {
 
         <div class="flex">
             <div class="absolute top-1/2 -translate-y-[30%] lg:-translate-y-3/4">
-                <h1 class="text-[6vw] leading-[6vw] max-w-[58.6vw] font-primary font-bold lg:text-[35px] lg:leading-[35px] xl:leading-[50px] lg:max-w-[360px] xl:max-w-[520px] xl:text-[50px]">
+                <h1 class="text-[6vw] leading-[6vw] max-w-[50.6vw] font-primary font-bold lg:text-[35px] lg:leading-[35px] xl:leading-[50px] lg:max-w-[360px] xl:max-w-[580px] xl:text-[60px]">
                     Espace 
                     <span class="text-primary">
                         incontournable
@@ -41,11 +41,11 @@ export default {
                     pour les cavaliers
                 </h1>
 
-                <p class="text-[4vw] max-w-[48vw] mt-3 leading-[5vw] lg:text-[18px] xl:text-[20px] lg:max-w-full lg:mt-6 text-secondary">
+                <p class="text-[4vw] italic max-w-[40vw] mt-3 leading-[5vw] lg:leading-6 lg:text-[18px] xl:text-[20px] lg:max-w-full lg:mt-6 text-secondary">
                     Pour t'entrainer à la théorie des Galops
                 </p>
 
-                <div class="flex flex-col gap-[2.13vw] mt-6 lg:mt-[100px] lg:gap-7 lg:flex-row cursor-pointer">
+                <div class="flex flex-col gap-[5vw] mt-[80px] lg:mt-[100px] lg:gap-7 lg:flex-row cursor-pointer">
                     <img class="w-[40vw] lg:w-[205px]" src="@/static/apple-store.png" alt="Bouton disponible sur App Store" @click="redirectToAppStore" />
                     <img class="w-[40vw] lg:w-[205px]" src="@/static/play-store.png" alt="Bouton disponible sur Google Play Store" @click="redirectToPlayStore" />
                 </div>
@@ -53,7 +53,7 @@ export default {
 
             <img class="absolute right-[100px] lg:right-0 -top-0 lg:top-[260px] xl:top-[260px] w-[120px] lg:w-[220px] lg:left-[30vw] xl:left-[650px] -z-10" src="@/static/ellipse.png" alt="Ellipse blanche" />
 
-            <div class="w-[55vw] ml-auto lg:max-w-[900px]">
+            <div class="w-[75vw] ml-auto lg:max-w-[800px]">
                 <img class="w-full block lg:hidden" src="@/static/hero-mobile.png" alt="Mockup téléphone qui montre l'application" />
                 
                 <img class="w-full hidden lg:block" src="@/static/hero.png" alt="Mockup téléphone qui montre l'application" />

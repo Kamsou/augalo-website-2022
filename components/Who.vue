@@ -30,8 +30,14 @@ export default {
             <h2 class="text-xl font-primary font-bold lg:text-6xl lg:mb-8">
                 Pour qui,
             </h2>
-            <p class="text-base leading-[20px] lg:text-[20px] lg:leading-[38px]">
-                Augalo est une application mobile permettant aux cavalier(e)s de s'entrainer à la théorie équestre des examens fédéraux. Sous forme de quiz interactif rédigé par un instructeur d’équitation, les questions portent sur la thématique et connaissances du cheval et de son environnement. Utile pour s’exercer avant de passer l’examen à la théorie de son galop en centre équestre.
+            <p class="text-base lg:text-[20px] lg:leading-[38px]">
+                Augalo est une <span class="italic">application mobile</span> permettant aux cavalier(e)s de s'entrainer à la <span class="italic">théorie équestre</span> des examens fédéraux.
+            </p>
+            <p class="mt-2 text-base lg:text-[20px] lg:leading-[38px]">
+              Sous forme de <span class="italic">quiz interactif</span> rédigé par un instructeur d’équitation, <span class="italic">les questions</span> portent sur la thématique et connaissances du cheval et de son environnement.
+            </p>
+            <p class="mt-2 text-base lg:text-[20px] lg:leading-[38px]">
+              Utile pour <span class="italic">s’exercer</span> avant de passer l’examen à la théorie de <span class="italic">son galop</span> en centre équestre.
             </p>
 
             <div class="relative mt-10 h-[70px]" @click="downloadApp">
