@@ -21,7 +21,7 @@ export default {
 </script>
 
 <template>
-    <section class=" mt-[60px] mx-5 mb-[120px] lg:mt-52 lg:flex lg:max-w-[1349px] lg:mx-auto lg:gap-8 lg:px-[80px]">
+    <section class="mt-[150px] mx-5 mb-[120px] lg:mt-52 lg:flex lg:max-w-[1349px] lg:mx-auto lg:gap-8 lg:px-[80px]">
         <div class="hidden lg:block lg:max-w-[50%]">
             <img class="lg:max-w-full" src="@/static/who.png" alt="Illustration d'un cheval qui galope" />
         </div>
