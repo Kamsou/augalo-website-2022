@@ -21,7 +21,7 @@ export default {
             <a href="mailto:contact@augalo.com">
                 <div class="flex items-center lg:mr-28 z-40 cursor-pointer">
                     <img class="mr-5" src="@/static/contact.svg" alt="Icone message envoyé" />
-                    <span class="hidden lg:block text-white text-[28px]">
+                    <span class="hidden lg:block text-white text-[25px]">
                         contact@augalo.com
                     </span>
                 </div>
@@ -33,7 +33,7 @@ export default {
 
         <div class="flex">
             <div class="absolute top-1/2 -translate-y-[30%] lg:-translate-y-3/4">
-                <h1 class="text-[6vw] leading-[6vw] max-w-[58.6vw] font-primary font-bold lg:text-[45px] lg:leading-[46px] xl:leading-[66px] lg:max-w-[460px] xl:max-w-[660px] xl:text-[70px]">
+                <h1 class="text-[6vw] leading-[6vw] max-w-[58.6vw] font-primary font-bold lg:text-[35px] lg:leading-[35px] xl:leading-[50px] lg:max-w-[360px] xl:max-w-[520px] xl:text-[50px]">
                     Espace 
                     <span class="text-primary">
                         incontournable
@@ -41,7 +41,7 @@ export default {
                     pour les cavaliers
                 </h1>
 
-                <p class="text-[4vw] max-w-[48vw] mt-3 leading-[5vw] lg:text-[25px] xl:text-[28px] lg:max-w-full lg:mt-6 text-secondary">
+                <p class="text-[4vw] max-w-[48vw] mt-3 leading-[5vw] lg:text-[18px] xl:text-[20px] lg:max-w-full lg:mt-6 text-secondary">
                     Pour t'entrainer à la théorie des Galops
                 </p>
 

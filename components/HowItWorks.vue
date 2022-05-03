@@ -13,7 +13,7 @@
                 <img
                     src="@/static/mockup-1.png"
                     alt="Mockup de l'application Augalo"
-                    class="w-[32vw] lg:w-[180px] mx-auto"
+                    class="w-[32vw] lg:w-[160px] mx-auto"
                 />
             </div>
             <div class="flex flex-row gap-[5.33vw] lg:gap-10 lg:flex-col">
@@ -28,7 +28,7 @@
                 <img
                     src="@/static/mockup-2.png"
                     alt="Mockup de l'application Augalo"
-                    class="w-[32vw] lg:w-[180px] mx-auto"
+                    class="w-[32vw] lg:w-[160px] mx-auto"
                 />
             </div>
             <div class="flex flex-row-reverse gap-[5.33vw] lg:gap-10 lg:flex-col">
@@ -43,7 +43,7 @@
                 <img
                     src="@/static/mockup-3.png"
                     alt="Mockup de l'application Augalo"
-                    class="w-[32vw] lg:w-[180px] mx-auto"
+                    class="w-[32vw] lg:w-[160px] mx-auto"
                 />
             </div>
         </div>
