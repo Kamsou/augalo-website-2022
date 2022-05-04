@@ -16,10 +16,10 @@ export default {
 <template>
     <section class="relative ml-5 z-10 lg:ml-24">
         <div class="flex absolute top-0 justify-between w-full mt-[2.1vh]">
-            <img class="w-[107px] lg:w-[214px] -ml-3" src="@/static/logo-black.png" alt="Logo Augalo" />
+            <img class="w-[107px] lg:w-[130px] -ml-3" src="@/static/logo-black.png" alt="Logo Augalo" />
 
             <a href="mailto:contact@augalo.com">
-                <div class="flex items-center lg:mr-28 z-40 cursor-pointer">
+                <div class="flex items-center lg:mr-14 lg:mt-1 z-40 cursor-pointer">
                     <img class="mr-5" src="@/static/contact.svg" alt="Icone message envoyé" />
                     <span class="hidden lg:block text-white text-[25px]">
                         contact@augalo.com
