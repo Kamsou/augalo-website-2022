@@ -1,14 +1,14 @@
 <script>
 export default {
-  setup() {
-    const redirectToPlayStore = () => {
-      window.location = 'https://play.google.com/store/apps/details?id=com.ionic.augalo.com&gl=FR'
+    methods: {
+        redirectToPlayStore()  {
+            window.location = 'https://play.google.com/store/apps/details?id=com.ionic.augalo.com&gl=FR'
+        },
+        
+        redirectToAppStore() {
+            window.location = 'https://apps.apple.com/fr/app/augalo/id1598737381'
+        }
     }
-    const redirectToAppStore = () => {
-      window.location = 'https://apps.apple.com/fr/app/augalo/id1598737381'
-    }
-    return { redirectToPlayStore, redirectToAppStore }
-  }
 }
 </script>
 

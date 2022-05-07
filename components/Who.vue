@@ -1,10 +1,16 @@
 <script>
-import {  computed } from 'vue'
 export default {
-  setup() {
-    const isAndroid = computed(() => navigator.userAgent.match(/Android/i))
-    const isIos = computed(() => navigator.userAgent.match(/iPhone|iPad|iPod/i))
-    const downloadApp = () => {
+  computed: {
+      isAndroid () {
+        return navigator.userAgent.match(/Android/i)
+      },
+      isIos () {
+        return navigator.userAgent.match(/iPhone|iPad|iPod/i)
+      },
+  },
+
+  methods: {
+    downloadApp() {
       if (isIos.value) {
         window.location = 'https://apps.apple.com/fr/app/augalo/id1598737381'
         return
@@ -15,8 +21,8 @@ export default {
       }
       alert('Tu dois utiliser ton téléphone pour accéder à l\'application Augalo')
     }
-    return { downloadApp }
   }
+  
 }
 </script>
 
