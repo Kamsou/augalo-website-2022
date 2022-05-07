@@ -1,8 +1,3 @@
-<script setup lang="ts">
-onMounted(() => {
-    window.scrollTo(0, 0)
-})
-</script>
 
 <template>
     <div class="lg:max-w-[1512px] lg:mx-auto font-lato">
