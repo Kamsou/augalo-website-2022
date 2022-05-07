@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     target: 'static',
     meta: {
       title: 'Augalo — Application mobile',
-      description: 'Application mobile pour les cavaliers'
+      description: 'Application mobile pour les cavaliers',
+      viewport: 'width=device-width, initial-scale=1',
     },
 })

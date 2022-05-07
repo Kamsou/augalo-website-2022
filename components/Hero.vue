@@ -1,5 +1,4 @@
 <script>
-import {  computed } from 'vue'
 export default {
   setup() {
     const redirectToPlayStore = () => {
@@ -61,18 +60,5 @@ export default {
 
             <img class="absolute -bottom-16 lg:bottom-0 w-[162px] lg:w-[220px] left-[100px] lg:left-[50px] transform -rotate-[73deg]" src="@/static/ellipse.png" alt="Ellipse blanche" />
         </div>
-
-   
-    </section>
-    
-    <section>
-             
-        <Who />
-
-        <HowItWorks />
-
-        <Team />
-
-        <Footer />
     </section>
 </template>
