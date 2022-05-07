@@ -2,14 +2,6 @@
 <template>
     <div class="lg:max-w-[1512px] lg:mx-auto font-lato">
         <Hero />
-<!-- 
-        <Who />
-
-        <HowItWorks />
-
-        <Team />
-
-        <Footer /> -->
     </div>
 </template>
 
