@@ -4,5 +4,7 @@
 
 @font-face {
     font-family: 'Subjectivity';
-    src: url("./static/fonts/Subjectivity-Bold.otf") format("otf");
+    src: url("./static/fonts/Subjectivity-Bold.otf") format("otf"),
+        url("./static/fonts/Subjectivity-Bold.woff") format("woff"),
+        url("./static/fonts/Subjectivity-Bold.woff2") format("woff2");
 }
