@@ -9,5 +9,10 @@ export default defineNuxtConfig({
     meta: {
       title: 'Augalo — Application mobile',
       description: 'Application mobile pour les cavaliers'
-    }
+    },
+    router: {
+      scrollBehavior: function (to, from, savedPosition) {
+        return { x: 0, y: 0 }
+      }
+    },
 })
