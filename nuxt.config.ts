@@ -1,4 +1,5 @@
 import { defineNuxtConfig } from 'nuxt'
+import { defineNuxtPlugin } from '#app'
 
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
@@ -6,8 +7,9 @@ export default defineNuxtConfig({
     css: ["@/assets/css/main.css"],
     ssr: false,
     target: 'static',
-    // meta: {
-    //   title: 'Augalo — Application mobile',
-    //   description: 'Application mobile pour les cavaliers',
-    // },
+    router: { 
+      scrollBehavior(to, from, savedPosition) { 
+        return {x: 0, y: 0}
+      }
+    }
 })

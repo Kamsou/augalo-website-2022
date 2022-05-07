@@ -1,12 +1,8 @@
-<script setup >
-    setTimeout(function() {window.scrollTo(0, 0)}, 1)
-</script>
-
 <template>
     <div class="lg:max-w-[1512px] lg:mx-auto font-lato">
         <Hero />
 
-        <!-- <Who /> -->
+        <Who />
 
         <HowItWorks />
 
