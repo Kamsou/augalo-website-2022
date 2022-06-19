@@ -1,9 +1,6 @@
 <template>
     <section>
         <div>
-            <router-link to="/">
-                <img class="w-[107px] lg:w-[150px] ml-5 mt-5" src="@/static/logo-black.png" alt="Logo Augalo" />
-            </router-link>
 
             <h1 class="text-3xl lg:text-5xl font-primary text-center pt-8 font-bold mt-20">Achats</h1>
 
@@ -28,7 +25,7 @@
                     </router-link>
                 </button>
                 
-                <div class="absolute top-2 left-2 z-0 w-full bg-gray-300 h-[50px] rounded-md" />
+                <div class="absolute top-2 left-2 z-0 w-full bg-gray-300 h-[50px] rounded-md"></div>
             </div>
         </div>
     </section>

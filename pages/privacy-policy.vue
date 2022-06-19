@@ -1,7 +1,7 @@
 <template>
     <section>
         <router-link to="/">
-            <img class="w-[107px] lg:w-[150px] ml-5 mt-5" src="@/static/logo-black.png" alt="Logo Augalo" />
+            <img class="w-[107px] lg:w-[150px] ml-5 mt-5" src="@/static/logo-black.png" alt="Logo Augalo"/>
         </router-link>
         
         <div class="px-5 max-w-[800px] mx-auto mt-10">

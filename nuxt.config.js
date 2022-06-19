@@ -33,7 +33,8 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/typescript
     '@nuxt/typescript-build',
-    '@nuxtjs/tailwindcss'
+    '@nuxtjs/tailwindcss',
+    '@nuxtjs/composition-api/module'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
