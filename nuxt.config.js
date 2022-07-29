@@ -4,9 +4,10 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'augalo-nuxt2',
+    title: 'Augalo — Application mobile pour les cavaliers',
+    description: "Augalo est une application mobile pour les cavaliers qui veulent s'entrainer à la théorie des galops.",
     htmlAttrs: {
-      lang: 'en'
+      lang: 'fr'
     },
     meta: [
       { charset: 'utf-8' },
